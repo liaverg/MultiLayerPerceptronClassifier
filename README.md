@@ -25,10 +25,10 @@
   
   ### Eclipse IDE
   Run Configurations -> Arguments -> Program Arguments:  
-  `<hidden layers> <h1 neurons> <h2 neurons> <transfer function> <learning rate> <batch size>`  
-  example: `2 4 3 tanh 0.05 1`
-  
-  `<hidden layers> <h1 neurons> <h2 neurons> <h3neurons> <transfer function> <learning rate> <batch size>`  
-  example: `3 4 3 2 tanh 0.05 1`
+	  `<hidden layers> <h1 neurons> <h2 neurons> <transfer function> <learning rate> <batch size>`  
+	  example: `2 4 3 tanh 0.05 1`
+	  
+	  `<hidden layers> <h1 neurons> <h2 neurons> <h3neurons> <transfer function> <learning rate> <batch size>`  
+	  example: `3 4 3 2 tanh 0.05 1`
 
   Keep the learning rate at 0.05 (Google defaults it at 0.03)
