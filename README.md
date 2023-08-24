@@ -10,8 +10,8 @@
   `java -cp ".;jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <transfer function> <learning rate> <batch size>`  
   example: `java -cp ".;jars/*" main/MLPDriver 2 4 3 tanh 0.05 1`  
   
-  `java -cp ".;jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <h3 neurons> <transfer function> <learning rate> <batch size>`  
-  example: `java -cp ".;jars/*" main/MLPDriver 3 4 3 2 tanh 0.05 1`
+	  `java -cp ".;jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <h3 neurons> <transfer function> <learning rate> <batch size>`  
+	  example: `java -cp ".;jars/*" main/MLPDriver 3 4 3 2 tanh 0.05 1`
 
   ### Linux Host
   1. Compile with: `javac -cp ".:jars/*" main/*.java datasetgenerator/*.java neurons/*.java transferfunctions/*.java`
@@ -20,8 +20,8 @@
   `java -cp ".:jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <transfer function> <learning rate> <batch size>`  
   example: `java -cp ".:jars/*" main/MLPDriver 2 4 3 tanh 0.05 1`  
   
-  `java -cp ".:jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <h3 neurons> <transfer function> <learning rate> <batch size>`  
-  example: `java -cp ".:jars/*" main/MLPDriver 3 4 3 2 tanh 0.05 1`
+	  `java -cp ".:jars/*" main/MLPDriver <hidden layers> <h1 neurons> <h2 neurons> <h3 neurons> <transfer function> <learning rate> <batch size>`  
+	  example: `java -cp ".:jars/*" main/MLPDriver 3 4 3 2 tanh 0.05 1`
   
   ### Eclipse IDE
   Run Configurations -> Arguments -> Program Arguments:  
